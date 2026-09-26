@@ -1,0 +1,22 @@
+# Local credentials, private configuration, and machine-specific evidence.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+auth.json
+.local/
+artifacts/
+
+# Future build outputs and editor caches; synthetic fixtures remain trackable.
+bin/
+obj/
+node_modules/
+.venv/
+__pycache__/
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
